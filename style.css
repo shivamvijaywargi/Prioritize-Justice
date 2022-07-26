@@ -1,0 +1,104 @@
+/* #2b2922 - brown color */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  overflow-y: hidden;
+}
+
+.top {
+  background-color: #2b2922;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  padding-top: 35px;
+
+  color: #fff;
+}
+
+.navbar img {
+  width: 120px;
+}
+
+.navbar div {
+  display: inline-block;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+.navbar ul > li {
+  display: inline-block;
+  color: rgb(145, 141, 141);
+
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.navbar ul > li:hover {
+  color: #fff;
+}
+
+.button-small {
+  background: transparent;
+  outline-color: #9e8d36;
+  border: 1px solid #9e8d36;
+
+  padding: 10px 35px;
+
+  color: #9e8d36;
+  font-size: 20px;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  display: inline-block;
+}
+
+.hero-left {
+  max-width: 700px;
+  color: #eee;
+
+  font-size: 90px;
+}
+
+.hero-right {
+  max-width: 490px;
+  color: rgb(179, 171, 171);
+  /* font-size: 14px; */
+  /* text-align: center; */
+
+  margin-bottom: 40px;
+}
+
+.bottom {
+  /* position: fixed; */
+  background-image: url("./assets/adrian-waldron-QCjZ7GmOYBo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  /* height: 100vh; */
+  /* bottom: 0; */
+  padding-top: 24%;
+}
